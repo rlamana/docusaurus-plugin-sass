@@ -1,6 +1,6 @@
 # docusaurus-plugin-sass
 
-Docusaurus plugin to provides support for SASS/SCSS stylesheets.
+Provides support for SASS/SCSS to Docusaurus v2.
 
 ## Installation
 

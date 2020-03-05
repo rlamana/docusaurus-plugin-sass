@@ -1,4 +1,4 @@
-# `docusaurus-plugin-sass`
+# docusaurus-plugin-sass
 
 Docusaurus plugin to provides support for SASS/SCSS stylesheets.
 

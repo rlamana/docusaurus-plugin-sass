@@ -1,15 +1,15 @@
 module.exports = function() {
   return {
     name: 'docusaurus-plugin-sass',
-    configureWebpack() {
+    configureWebpack(_, isServer, utils) {
+      const { getStyleLoaders } = utils;
       return {
         module: {
           rules: [
             {
               test: /\.s[ac]ss$/i,
               use: [
-                'style-loader',
-                'css-loader',
+                ...getStyleLoaders(isServer),
                 'sass-loader',
               ]
             }

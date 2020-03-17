@@ -1,4 +1,4 @@
-module.exports = function() {
+module.exports = function(_, options) {
   return {
     name: 'docusaurus-plugin-sass',
     configureWebpack(_, isServer, utils) {
@@ -20,13 +20,17 @@ module.exports = function() {
                   importLoaders: 1,
                   sourceMap: !isProd,
                   onlyLocals: isServer,
-                }),
-                'sass-loader'
+                }), {
+                  loader: 'sass-loader',
+                  options: options || {}
+                }
               ]
             }, {
               use: [
-                ...getStyleLoaders(isServer),
-                'sass-loader'
+                ...getStyleLoaders(isServer), {
+                  loader: 'sass-loader',
+                  options: options || {}
+                }
               ]
             }]
           }]

@@ -9,7 +9,7 @@ module.exports = function(_, options) {
           rules: [{
             test: /\.sa|css$/,
             oneOf: [{
-              test: /\.module\.scss$/,
+              test: /\.module\.sa|css$/,
               use: [
                 ...getStyleLoaders(isServer, {
                   modules: {

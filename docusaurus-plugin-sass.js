@@ -7,7 +7,7 @@ module.exports = function(_, options) {
       return {
         module: {
           rules: [{
-            test: /\.scss$/,
+            test: /\.sa|css$/,
             oneOf: [{
               test: /\.module\.scss$/,
               use: [

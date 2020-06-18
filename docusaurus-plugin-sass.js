@@ -7,9 +7,9 @@ module.exports = function(_, options) {
       return {
         module: {
           rules: [{
-            test: /\.scss$/,
+            test: /\.s[ca]ss$/,
             oneOf: [{
-              test: /\.module\.scss$/,
+              test: /\.module\.s[ca]ss$/,
               use: [
                 ...getStyleLoaders(isServer, {
                   modules: {

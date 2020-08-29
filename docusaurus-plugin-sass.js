@@ -1,4 +1,4 @@
-module.exports = function(_, options) {
+module.exports = function(_, {id, ...options}) {
   return {
     name: 'docusaurus-plugin-sass',
     configureWebpack(_, isServer, utils) {

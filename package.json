@@ -1,13 +1,14 @@
 {
   "name": "docusaurus-plugin-sass",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "description": "Docusaurus plugin to provide support for SASS/SCSS",
   "main": "docusaurus-plugin-sass.js",
   "dependencies": {
-    "sass-loader": "^10.0.2"
+    "sass-loader": "^10.1.1"
   },
   "peerDependencies": {
-    "@docusaurus/core": "^2.0.0"
+    "@docusaurus/core": "^2.0.0",
+    "sass": "^1.30.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -18,7 +18,7 @@ module.exports = function(_, {id, ...options}) {
                       : `[local]_[path]`,
                     exportOnlyLocals: isServer,
                   },
-                  importLoaders: 1,
+                  importLoaders: 2,
                   sourceMap: !isProd,
                 }), {
                   loader: 'sass-loader',

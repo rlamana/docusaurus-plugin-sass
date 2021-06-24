@@ -15,7 +15,7 @@ module.exports = function(_, {id, ...options}) {
                   modules: {
                     localIdentName: isProd
                       ? `[local]_[hash:base64:4]`
-                      : `[local]_[path]`,
+                      : `[local]_[path][name]`,
                     exportOnlyLocals: isServer,
                   },
                   importLoaders: 2,

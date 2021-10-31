@@ -13,6 +13,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rlamana/docusaurus-plugin-sass.git",
+  },
   "homepage": "https://github.com/rlamana/docusaurus-plugin-sass",
   "keywords": [
     "docusaurus",

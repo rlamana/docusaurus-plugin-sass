@@ -7,7 +7,7 @@
     "sass-loader": "^10.1.1"
   },
   "peerDependencies": {
-    "@docusaurus/core": "^2.0.0",
+    "@docusaurus/core": "^2.0.0-beta",
     "sass": "^1.30.0"
   },
   "scripts": {
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rlamana/docusaurus-plugin-sass.git",
+    "url": "https://github.com/rlamana/docusaurus-plugin-sass.git"
   },
   "homepage": "https://github.com/rlamana/docusaurus-plugin-sass",
   "keywords": [

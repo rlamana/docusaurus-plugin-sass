@@ -1,3 +1,7 @@
+<a href="https://www.npmjs.com/package/docusaurus-plugin-sass" alt="npm package">
+<img alt="npm" src="https://img.shields.io/npm/v/docusaurus-plugin-sass">
+</a>
+
 # docusaurus-plugin-sass
 
 Provides support for SASS/SCSS to Docusaurus v2.

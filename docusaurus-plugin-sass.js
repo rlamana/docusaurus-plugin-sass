@@ -21,14 +21,14 @@ module.exports = function(_, {id, ...options}) {
                   importLoaders: 2,
                   sourceMap: !isProd,
                 }), {
-                  loader: 'sass-loader',
+                  loader: require.resolve('sass-loader'),
                   options: options || {}
                 }
               ]
             }, {
               use: [
                 ...getStyleLoaders(isServer), {
-                  loader: 'sass-loader',
+                  loader: require.resolve('sass-loader'),
                   options: options || {}
                 }
               ]

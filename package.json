@@ -1,6 +1,6 @@
 {
   "name": "docusaurus-plugin-sass",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Docusaurus plugin to provide support for SASS/SCSS",
   "main": "docusaurus-plugin-sass.js",
   "types": "docusaurus-plugin-sass.d.ts",

@@ -4,7 +4,7 @@
 
 # docusaurus-plugin-sass
 
-Provides support for SASS/SCSS to Docusaurus v2.
+Provides support for SASS/SCSS to Docusaurus v2 and v3.
 
 # Installation
 

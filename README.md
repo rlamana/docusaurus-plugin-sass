@@ -6,6 +6,8 @@
 
 Provides support for SASS/SCSS to Docusaurus v2 and v3.
 
+Note: this plugin is compatible with [Docusaurus Faster](https://github.com/facebook/docusaurus/issues/10556)
+
 # Installation
 
 ```sh

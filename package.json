@@ -5,7 +5,7 @@
   "main": "docusaurus-plugin-sass.js",
   "types": "docusaurus-plugin-sass.d.ts",
   "dependencies": {
-    "sass-loader": "^10.1.1"
+    "sass-loader": "^16.0.2"
   },
   "peerDependencies": {
     "@docusaurus/core": "^2.0.0-beta || ^3.0.0-alpha",

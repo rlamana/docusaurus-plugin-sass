@@ -4,6 +4,10 @@ module.exports = function(_, {id, ...options}) {
     configureWebpack(_, isServer, utils) {
       const { getStyleLoaders } = utils;
       const isProd = process.env.NODE_ENV === 'production';
+      const sassLoaderOptions = {
+        sourceMap: !isProd,
+        ...(options || {})
+      };
       return {
         module: {
           rules: [{
@@ -22,14 +26,16 @@ module.exports = function(_, {id, ...options}) {
                   sourceMap: !isProd,
                 }), {
                   loader: require.resolve('sass-loader'),
-                  options: options || {}
+                  options: sassLoaderOptions
                 }
               ]
             }, {
               use: [
-                ...getStyleLoaders(isServer), {
+                ...getStyleLoaders(isServer, {
+                  sourceMap: !isProd,
+                }), {
                   loader: require.resolve('sass-loader'),
-                  options: options || {}
+                  options: sassLoaderOptions
                 }
               ]
             }]
